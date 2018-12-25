@@ -21,7 +21,7 @@ module.exports = class silCommand extends Command {
 
 async run(msg, args) {
 const { sil } = args;
-  msg.channel.bulkDelete(sil + 1).then(() => {
+  msg.channel.bulkDelete(sil).then(() => {
     msg.channel.send("Deleted "+sil+" messages.").then(msg => msg.delete(1000));
   });
 }
