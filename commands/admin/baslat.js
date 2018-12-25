@@ -16,9 +16,9 @@ module.exports = class baslatCommand extends Command {
 async run(msg) {
 
 msg.channel.send("Yeniden Başlatılıyor").then(msg=>{
-
+  msg.delete(1000);
 
   process.exit(0);
-}msg =>msg.deşete(1000));
+});
 }
 }
