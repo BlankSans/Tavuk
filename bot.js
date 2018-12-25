@@ -37,4 +37,4 @@ client.on('error', err => {
 	console.log(err)
 });
 
-client.login(ayarlar.TOKEN);
+client.login(process.env.TOKEN);
