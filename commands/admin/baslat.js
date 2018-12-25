@@ -19,6 +19,6 @@ msg.channel.send("Yeniden Başlatılıyor").then(msg=>{
 
 
   process.exit(0);
-});
+}msg =>msg.deşete(1000));
 }
 }
